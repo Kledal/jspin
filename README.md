@@ -1,7 +1,7 @@
 ### How to install
 First run the following:
 ```
-cp -r jspin-examples bin config.cfg ~/jspin
+cp -r jspin-examples bin ~/jspin
 ```
 
 Inside the jspin.app there exists a config.cfg.
