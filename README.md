@@ -1,6 +1,7 @@
 ### How to install
 First run the following:
 ```
+mkdir ~/jspin
 cp -r jspin-examples bin ~/jspin
 ```
 
