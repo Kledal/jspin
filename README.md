@@ -1,3 +1,6 @@
+### Info
+This version of JSpin is launched in a low-res mode, to prevent cursor misalignment on retina screens.
+
 ### How to install
 First run the following:
 ```
