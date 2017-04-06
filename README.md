@@ -5,4 +5,4 @@ cp -r jspin-examples bin config.cfg ~/jspin
 ```
 
 Inside the jspin.app there exists a config.cfg.
-You need to change the directory to your username inside this file.
+You need to change the directory in the two keys `SPIN` and `SOURCE_DIRECTORY` to your username inside this file.
