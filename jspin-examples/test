@@ -1,0 +1,22 @@
+byte	n	=	0;
+proctype P()	{
+byte	temp;
+byte	i;
+i =	1;
+do
+::	i >	10	->	break
+::	else	->
+temp	=	n+1;
+n	=	temp;
+i =	i+1
+od
+}
+
+init {
+atomic {
+run	P();
+run	P()
+}
+(_nr_pr ==	1)	->
+assert n!= 15;
+}
